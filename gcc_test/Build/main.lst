@@ -1,0 +1,64 @@
+ARM GAS  C:\Users\dell\AppData\Local\Temp\ccTR1TBU.s 			page 1
+
+
+   1              		.cpu cortex-m3
+   2              		.eabi_attribute 20, 1
+   3              		.eabi_attribute 21, 1
+   4              		.eabi_attribute 23, 3
+   5              		.eabi_attribute 24, 1
+   6              		.eabi_attribute 25, 1
+   7              		.eabi_attribute 26, 1
+   8              		.eabi_attribute 30, 1
+   9              		.eabi_attribute 34, 1
+  10              		.eabi_attribute 18, 4
+  11              		.file	"main.c"
+  12              		.text
+  13              	.Ltext0:
+  14              		.cfi_sections	.debug_frame
+  15              		.section	.text.main,"ax",%progbits
+  16              		.align	1
+  17              		.global	main
+  18              		.arch armv7-m
+  19              		.syntax unified
+  20              		.thumb
+  21              		.thumb_func
+  22              		.fpu softvfp
+  24              	main:
+  25              	.LFB29:
+  26              		.file 1 "User/main.c"
+   1:User/main.c   **** #include "stm32f10x.h"
+   2:User/main.c   **** 
+   3:User/main.c   **** int main(void)
+   4:User/main.c   **** {
+  27              		.loc 1 4 1 view -0
+  28              		.cfi_startproc
+  29              		@ Volatile: function does not return.
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32              		@ link register save eliminated.
+  33              	.L2:
+   5:User/main.c   **** 	while (1) {
+  34              		.loc 1 5 2 discriminator 1 view .LVU1
+   6:User/main.c   **** 
+   7:User/main.c   **** 	}
+  35              		.loc 1 7 2 discriminator 1 view .LVU2
+   5:User/main.c   **** 	while (1) {
+  36              		.loc 1 5 8 discriminator 1 view .LVU3
+  37 0000 FEE7     		b	.L2
+  38              		.cfi_endproc
+  39              	.LFE29:
+  41              		.text
+  42              	.Letext0:
+  43              		.file 2 "c:\\st\\stm32cubeide_1.6.0\\stm32cubeide\\plugins\\com.st.stm32cube.ide.mcu.externaltools
+  44              		.file 3 "c:\\st\\stm32cubeide_1.6.0\\stm32cubeide\\plugins\\com.st.stm32cube.ide.mcu.externaltools
+  45              		.file 4 "src/Libraries/CMSIS/CoreSupport/core_cm3.h"
+  46              		.file 5 "User/system_stm32f10x.h"
+ARM GAS  C:\Users\dell\AppData\Local\Temp\ccTR1TBU.s 			page 2
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 main.c
+C:\Users\dell\AppData\Local\Temp\ccTR1TBU.s:16     .text.main:0000000000000000 $t
+C:\Users\dell\AppData\Local\Temp\ccTR1TBU.s:24     .text.main:0000000000000000 main
+
+NO UNDEFINED SYMBOLS
