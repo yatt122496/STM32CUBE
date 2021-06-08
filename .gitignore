@@ -1,2 +1,6 @@
 /.metadata
 /RemoteSystemsTempFiles
+/*/Build
+/*/OBJ
+/*/*/Build
+/*/*/OBJ
